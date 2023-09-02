@@ -1,0 +1,1 @@
+select count(speed) from planes where speed!= 'null';

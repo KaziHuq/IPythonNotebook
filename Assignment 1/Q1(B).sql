@@ -1,0 +1,1 @@
+select min(speed), max(speed) from planes;
