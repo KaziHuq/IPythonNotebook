@@ -1,0 +1,3 @@
+Looking at the data from the two tables, AlaskaPercentDelay and AMWPercentDelay, 
+we can see that, in comparison to Alaska Airlines, 
+AM West Airlines has the highest delayed arrival times at all destinations.
