@@ -1,0 +1,11 @@
+Benefits:  
+    1. Lessen data duplication
+    2. Logically groups data
+    3. Modular database architecture
+    4. Enhanced database safety
+    5. Better performance 
+
+Disadvantages:
+    1. Reduces the speed of databases
+    2. Demands a thorough investigation
+    3. Needs careful design
