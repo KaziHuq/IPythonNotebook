@@ -1,0 +1,16 @@
+#sql query
+
+SELECT
+                customer.LastName AS 'First_Name', 
+                customer.FirstName AS 'Last_Name', 
+                track.Name AS 'Song_Name', 
+                album.Title AS 'Album_Name' 
+                FROM customer JOIN invoice 
+                ON customer.CustomerId = invoice.CustomerId 
+                JOIN invoiceline 
+                    ON invoice.InvoiceId = invoiceline.InvoiceId 
+                JOIN track 
+                    ON invoiceline.TrackId = track.TrackId 
+                JOIN Album 
+                    ON track.AlbumId = Album.AlbumId 
+                ORDER BY customer.LastName, album.Title ASC, track.name ASC
