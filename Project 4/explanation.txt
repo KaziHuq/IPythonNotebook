@@ -1,0 +1,2 @@
+We can observe from the scatter plot that odor is an excellent indicator of whether a mushroom is toxic. 
+However, the plot wasn't ideal for the new data. Odor 6 mushrooms are difficult to forecast with precision. 
